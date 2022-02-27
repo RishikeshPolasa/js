@@ -1,5 +1,5 @@
 let a = () => {
-  const arr[] = [1, 2, 3];
+  const arr = [1, 2, 3].map((ele)=> ele*ele);
   return arr.reduce((acc, ele) => acc + ele, 0);
 };
 let b = 5;
