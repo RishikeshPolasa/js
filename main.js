@@ -1,5 +1,5 @@
 let a = () => {
-  const arr = [1, 2, 3].map((ele)=> ele*ele);
+  const arr = [1, 2, 3].filter((ele)=> ele % 2 == 0);
   return arr.reduce((acc, ele) => acc + ele, 0);
 };
 let b = 5;
